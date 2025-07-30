@@ -15,8 +15,8 @@ def recover_password():
         email = credentials[username]
 
         # Email configuration
-        sender_email = 'kurakuambica@gmail.com'  # Your email address
-        sender_password = 'eiqz kblx brrn ndrq'  # Your app password (for Gmail with two-factor authentication)
+        sender_email = 'abc@gmail.com'  # Your email address
+        sender_password = 'xxxxx'  # Your app password (for Gmail with two-factor authentication)
         subject = 'Password Recovery'
         body = 'Hello, your password is password123. if you want to change your password click the given link below. \nyour password recovery link: https://example.com/reset-password \n thank you'
 
