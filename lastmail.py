@@ -8,7 +8,7 @@ root.title("Login Page")
 
 # Dictionary to store username and email
 credentials = {
-    "user123": "saikeerthansk1@gmail.com"
+    "user123": "john@gmail.com"
 }
 
 # Function to handle password recovery button click
@@ -20,8 +20,8 @@ def recover_password():
         email = credentials[username]
 
         # Email configuration (same as in your previous code)
-        sender_email = 'kurakuambica@gmail.com'
-        sender_password = 'eiqz kblx brrn ndrq'
+        sender_email = 'abc@gmail.com'
+        sender_password = 'xxxxx'
         subject = 'Password Recovery'
         body = 'Hello, your password is password123. if you want to change your password click the given link below. \nyour password recovery link: https://example.com/reset-password \n thank you'
 
