@@ -9,8 +9,8 @@ root.title("Login Page")
 
 # Dictionary to store username and email
 credentials = {
-    "user123": {"email": "ambicak11@gmail.com", "password": "password123"},
-    "john_doe": {"email": "saikeerthansk1@gmail.com", "password": "qwerty"},
+    "user123": {"email": "abc.com", "password": "password123"},
+    "john_doe": {"email": "john.com", "password": "qwerty"},
     "alice_smith": {"email": "alice.smith@example.com", "password": "abc123"}
 }
 
@@ -23,8 +23,8 @@ def recover_password():
         email = credentials[username]["email"]
 
         # Email configuration
-        sender_email = 'kurakuambica@gmail.com'  # Your email address
-        sender_password = 'eiqz kblx brrn ndrq'  # Your app password (for Gmail with two-factor authentication)
+        sender_email = 'abc@gmail.com'  # Your email address
+        sender_password = 'xxxxx'  # Your app password (for Gmail with two-factor authentication)
         subject = 'Password Recovery'
         body = f'Hello {username},\n\nYour password recovery link: https://example.com/reset-password\n\nBest regards,\nThe Support Team'
 
