@@ -3,8 +3,8 @@ from email.message import EmailMessage
 
 try:
 # Ask for sender's email and password
-    sender_email = 'kurakuambica@gmail.com'
-    sender_password = 'jyjl vsxa fbue ynmm'
+    sender_email = 'abc@gmail.com'
+    sender_password = 'xxxxx'
 
 # Ask for recipient's email
     recipient_email = input("Enter recipient's email address: ")
